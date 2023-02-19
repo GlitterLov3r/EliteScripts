@@ -1,0 +1,104 @@
+local Notification = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+
+Notification.Name = "Notification"
+Notification.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Notification.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Notification
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.293810606, 0, 0.351520181, 0)
+Frame.Size = UDim2.new(0, 552, 0, 239)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.115942031, 0, 0.104602516, 0)
+TextLabel.Size = UDim2.new(0, 424, 0, 69)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "Successfully executed."
+TextLabel.TextColor3 = Color3.fromRGB(154, 12, 2)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 24.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0217391308, 0, 0.393305421, 0)
+TextLabel_2.Size = UDim2.new(0, 529, 0, 50)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Thank you for using GlitterLov3r's script. We hope you enjoy it!"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 23.000
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(51, 74, 203)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.286231875, 0, 0.723849356, 0)
+TextButton.Size = UDim2.new(0, 236, 0, 51)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Okay"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "Made By GlitterLov3r"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 23.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.768115938, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 128, 0, 18)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "ScriptBlox: GlitterLov3r"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 23.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.924686074, 0)
+TextLabel_5.Size = UDim2.new(0, 137, 0, 18)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "Discord: SomeEliteDude#4138"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 23.000
+TextLabel_5.TextWrapped = true
+
+-- Scripts:
+
+local function VYCY_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(VYCY_fake_script)()
