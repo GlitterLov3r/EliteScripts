@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local Notification = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -12,10 +7,8 @@ local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
 
---Properties:
-
 Notification.Name = "Notification"
-Notification.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Notification.Parent = game.CoreGui
 Notification.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = Notification
